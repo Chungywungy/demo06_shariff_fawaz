@@ -1,1 +1,109 @@
+:root {
+    /* 60% — background */
+    --light-text: #73AB84;
+    --dark-text: #FFFFFF;
 
+    /* 30% — primary actions and supporting surfaces) */
+    --primary: #FFFFFF;
+    --secondary: #004F2D;
+
+    /* 10% — accent for emphasis and interaction */
+    --accent: #330F0A;
+
+    /* Button border widths */
+    --btn-border-width: 3px;
+    --btn-border-width-hover: 5px;
+}
+
+body {
+    background-color: var(--light-text);
+    color: var(--primary);
+}
+
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: var(--accent);
+}
+
+.btn-info {
+    color: var(--light-text);
+    background-color: var(--secondary);
+    border-color: var(--primary);
+    border-width: var(--btn-border-width);
+    
+}
+
+.btn-info:hover,
+.btn-info:focus {
+    color: var(--dark-text);
+    background-color: var(--secondary);
+    border-color: var(--accent);
+    border-width: var(--btn-border-width-hover);
+    
+}
+
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+.btn .btn-outline-primary {
+    background-color: #004F2D;
+}
+
+.btn-check {
+    background-color: #004F2D;
+}
+
+.btn-group {
+    background-color: var(--light-text);
+    color: var(--primary);
+}
+
+.btn .btn-outline-primary::before {
+    background-color: #004F2D;
+    color: #004F2D;
+}
+
+#dropdownMenu {
+    background-color: #004F2D;
+}
+
+#btnradio2::backdrop {
+    color: #004F2D;
+}
+
+
+#btnradio1 {
+    background-color: #004F2D;
+}
+
+.btn .btn-secondary .dropdown-toggle {
+    background-color: #004F2D;
+}
+
+.yowza {
+    background-color: #004F2D;
+}
+
+.bruh {
+    background-color: #004F2D;
+    color: #FFFFFF;
+}
+
+.outta {
+    background-color: #73AB84;
+    color: #73AB84;
+}
+
+.yippee {
+    background-color: #004F2D;
+    color: #004F2D;
+}
